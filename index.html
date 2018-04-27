@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="mx-auto"> Ok Test One!</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-6 gameplay-column">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABm1BMVEVuIypvo5YAAAD08JeKHgT///9tIypwIyrzo4huIylupJZwopZwIittJCpxqJpyqZsOTzn/TC4qAABxqpsAOipzIioPTTg4AABMEhwALiAnAAAjAACOGgAxAAAxDBR0p5tTf3UAJRpml4rm5eUmNDBIbWUAQjEhDA9jAABeEh1AZVtQBBQ2SEPi3olTVFWDEgBDAABhj4S4uLjz95ucnJw1UksAGBFZGyRNd2w/ExlOABQAOikiIiAoHBpYExwSAAAlRTxrcG9wAACoqarP0tNlAAAwKCxiYmLi3+OPioxBRkSxrGtZhYAtS0pQVjWGg1InLitPAABGMSw4FAkmPTkQFxY+Ojo+WVNTdW9ATUt9e3wyGRo9a1/Pim6DTDx+U0iYX0xrGgiHXFCxd2JGCQBCJxzkmYJIQkJnPjByGQlLMC6wdWdZFAVrUUVTHCM+DhhoYz74kFn9glL43Yz5mmD3yn/8VDTNx3z7s3I8QzQbNzq2sWqclVhCYmh1cUM5OyEAGyJNh3X+MgX75OP7j3v8raL9f238yrz+aFZFFjQuAAARZElEQVR4nO1dC3vTVpqWBD4HHR0dmSjyBceWrNgxtgNEIb4lsR0gUxogxe3Y43DpdFq63WG7TZjOtJSWtltmbz97vyNbvsWBLAwbyeuXJ1ycPDx6/d0v51gQ5phjjjnmmGOOOeaYY4455phjjjnm+H8NpNKzfoT3C4xqZ/0I7xn4sIbP+hneJ2QBpw5nmqGKsVSRz/op3iuoKlH1rB/ifULGMYmis36K9wmEUyk84wybsdlmKKhSRZ1hX0oxrkhImFlfCtlMrZbqIDqzMsQ1yUWzMqsU8WEi0eQUKzObemNsoHiuUptlX4orWylszHJOg2MrR4Y8s0oKoI9WjrAwu1qqUqOzEptVR8ohyyg94wyFRnyrMcsMVVpZXJxxhrGV2WaI8FF4thlSnAvHZ5xhJxyf2bSbg8rlWWeI0jOtpRTRRnyWZUhVWW4sgi+VZ7WbqIIQa/HFdKpWm1Ex4sOc1MeMDi5w0yMozagMkZSrpRYjWzEBGWf9LO8HKjKMo0hkJSajGfU0AHwUCc92fegyPJpphqlIJDLzDMOzzzA1ywwNzjA38ww7s8zQ1dKyr+M9VAXv0rHm0SKcNnwZ8PuahQT0LiNqfLQCDH05AUYVZMhYRVRWa+8wG5NjwBCKfB9OZmgt16xVEJaNQ0l6By2NrUTCi75ciQLxoaMmFAeVppR6ewngymIkvBXDsv/cKagnlXHFncMfIYpBz2S3GSELCKFTPi/8YGUxDIkpRUj255AUUQpVbDydiyHZQGCV8JqqGqd8WlWg+DCdLnfgXcr5dB0DUbDCw1guvhUHkgZfwKOqUaGnU1tq1AZFvoR8KUMVqzkpZWBaSaVXVtKXKhjUzYhJzdO5HhW5bYxOuVw7PDzlu/J/DIqR6m5syRjVOluReKemGlg6tXM1HjVrdR7yEfanjnItFVzbo5SCIHPx8Eo6BZpXO90mniwLKiSmYQgXviUIX7Iq89/A/sAAgWMERAiyPQ1HrMqyfBQJUpWPaT5VBt/aiWFVONVDI1rZAiEGpUJUISyCb5VA7Tqx08VEVciD2MNlX7qZ44Aig/Lubioe4RypfIouIUVlYBg/bY5w5uC7hrGePXKOxhtdJJJpDhguBqahiFAtpUL+RiudrXB4q1l5E0XK66dIOEDtNtynhIyjMniQeKKBwdawevL4zM1MI3UjaItfPE1NgaqupI+ooQoVdGJ9hGkaGKYp9mXWdjIQpGQ4xsW4AqGjIiVOkBB4GJwI85gvB0yGLrCa2uKOMtU8cXymUhXzMj9SM5ARwPkMNVwxQhJwdELAg0TdqKQX02mp2Tw0AhIVRwBlciW3EofyIQVhYVqWA0X0oH5KBc0Ue5ANXiFFVjoVrE45Kar2GXbKzVRQDyHyNG4FrDFdM6Zk45Cxp2qxOG98Q4EYPDvkcRFEGOuALwlvJZAhTB7DkxGGZLYM345XaCB3TlT5UKoJNMF9akSq0Kkr627jO3JkoOB5GsGt/iFq4COI/hDXpx9Sw7FFt74I5MY+wrKK+bGmWJrLaRGiBhQcSJZHqWKU5kF/QB+jIHKlFdffrOQQ76wa6tiww8hF+BjRs8MKfqdZyBkBJJlY5JraqSCsHlJ1NFHlvf1hkVhJqDXs287NiQANNFKuMZYrRkqqjY0MqcoL/ZUjqCcNbKSaudphIOfCyHCNMZyGANIci/5Y4GVwuNMorq1FY/0E58ye8+1BVVqBNHWlAwTRWCmBcCUeL7e7VctxnJLLMKgJDq50FuHxyyk6DP0IYaOYe3BPZMwURVPsJam5BsVBjI/utFFKhxdTw/yF0nzusagR0YW+2mNoZy/ljSDWjAgennuVxcHMEQvJEjGJqLgEtWyPYFdnYnchgOUUH1UddSK89E/RXrMc5RytJz5FVDyCkqIrRHM6eRS0XBXRWspAnXCES5EP72l+2zZ7CkqYbvdVVPq3woFDTMZ2iv5c03gNZCyAG+WFP1dULMgdBYho4GMUu+rxk55def7T/RcFhZmlzcBR5HCDBkjxCPIcm4hWdzXT6gxnpdKv5ziuP39xoJulxlk/7VsAyUYlzSnGY8UDzcxIE+gR5Li/r7M2EgLnb6iMcY9iOqOLRM+OE7w/IHju+t19XWkaavA4QgIHFPlGm2MyZ4zfi+dA7PqA4suCbkWDWBpj1YjxNDxctpVRE/z1LrA698MPf/U4Xv/lnl5q4KnFFMa+nY27tRSN8W7+imVqikfxl+cuq+9fvXr17YBjRlPqxnGGUFWjYhHCpezHjTEXIMV0OGKbIgGCrdVMn965c9+9+vfQf7y6+N31vikecD091knFuNG+Z+1Eodj0a5cVKo16+TcgKDJianrWI3j9b6/+Hvr7q4sexXMZpu/nj8mQ4hSBeOk0BZ+uGvHZDV21bchGiSISYu5fGTC8+J//9d8XAVdcitfvO8RO0MlNMmRkTJ4HTZOvT4BovstED+b+wH1+d7GPv/SE+LzAWLZoTCaouKWLikL0nG8zV1nOF5jiMWQlT4bgaTyK/X//aCpmZvKeJYRT3IYdLeNXRwOPmM8yhXgMu88HQvzBY/jX3gsvQIud6AQRJDfKlpWx9Lpvl8R7DAdqeu/uMJP5dpzhR/BT5s6ks1GNupXtamTBxzeh5bvmgCBRnl0fUvyLS/Db/ivPuDuyo+MMVQPn7GzWtDZ9e/cpRUZJHzAU2Y/DdBS8zbfff/83718f8XfAXM3L46aIUbQj6ju+VVJ4QCOjDRma1stRiv2vnh1yl8ucpDHhbEDNTXvBr9GQb0sbdSKOUPz13An4kXEt1lbzE/+DkVC0Qt7PU0cctYcUiXlw9/o0ftd/yvbCpr0wqpAgT4g2on89KQcuVsVRIbavTGMIjqb3PmilUXdKVeOSolWL/lVSgdtRadSZEufZNIJX9lm/U2UnR6slo9HVxW1fEwSKdXNUiOznl1MYPoPclfA3YFyISEjZ+kHM530qHHVGGSps/6djBF+CFRLF1vi37ehwYQUXC6a+TX1bHPYAmemIEEFM2v6kFF/umwpUSd2uwnRbbA/54LrCrE3B79eC4vowM3Wh//zLmLv55Wed9KJl50Fm1XaiPdcpq8Zm1RXhGRN4E5CxabExPSXMad/3OF55+eIeI4qrv9ZG6AYhWqtHiaqoxUXod4K8+53RlRGG4FEIu7f/0f27d+/e/2j1gLfCFf4DrBwKbTiieVDsuVOwYNNsTWnf+AyI4qQ9pqU9nyo69yzLURiUHswuaQoxCx8sh9Yfm4TUDZ5oy2jH1KpBaPhjLJe0YwwJ4W4H6CgayXa5o3m8F7oaWl5lolnIc4Z4wSZK3a9+lMpY7vdcZCgSF2yRjCuqwkeJwNJUnELXYYSYjx+Cjq6HHsDfnTVZoJCvmVq2KJy8eHymkGmxMVQvnN+HeDfmbLwkLpu1FAZsWQkIhkCIt0FrQU15kw5+KuXXrSLcaFmF5ODhVJoci/qQYNt9YZogMt5Ma+1eXQaG63vbhPdzwHjBA5vdvD8lSBHKEFPr5uV+zYNovj10p2Bzesl244P7y9Ss9l4otHybC7G5ZvPAuIlRmyl20qcilGlCAckoC15zECQSHcZEsEh7VRdd2Zkacwp39m5wchu7odCNm7/7jTNPGAs20zLIp/fWyr3ejLZNhzombw+jvsIeXC1Zju38Vi20r+7tuh4GcDv08PLSTV4o6quQkDJrza+RkIIXBGvSO3jkUGyxX+KKRLfbt0O7tzb+sHFrfXmPWx8nB7hx4/LS+aUdHRTA6oD+bvvSBjlkua0Rpjnt+nBjCNNLxPWg5CBTUkrLHqvdDZfhDXhh+Q83z58/v5TSQIGVts4gKvpWhmB1+kGpbfL+Sh/IyJf6zoaZ7DfOyzU+iA8c6+uh9UvXznOs8UCpr4pOkvp2l0gWjEuO42SsbaTSgaJCljkIiewOsNr70PMvXKBXP15yCZ6/bPHQWT1o+bimwAJGC5ZOqvWGe0lB/1WaGdSJLLvuKagbJD58GL3WJ3j+WgEMVlF8fn2dTGm0CzVDIddwD5C4PXlctAYUyZ2Bgj78cP322rXzAyxl3GR1lfrWz/QBaY2jmXYh0TD47RoCX+jb9qI+YdlbvRixe+tq8vJAfi7DNe6RzGrR7wwFLCdLhOliYSHfP2WCi9leMQ9pjVmO/v6TS8nkxzfH6HH8joua2AHYrqU4n6iajNn7ScQ/NQBhnBgWGNblJcD5KXBjvuiODP1OEmEUa1maqTutTX7IFGqMYVNKezSVHnc1Jc7QLDSwP9PuMaiYRtuObrLqdp4fAscLAxmaj2+ewHCpzetl4kR9mpSOAVEVo2TJNsEc+TYwzQ+rfSV6ghCX+rOcR34t7yeBaGOhAMWUUlqgWF6wPYJ6YUKIT58+dTkvfdlT4wz1fcDoQeXXTCQKIoSOnSSC3K0/oBCV348I8fOEuzDlBsaPbbc2LuR9m7WNQ+ZNG5rPZUGOzk40Z/ecjaLoI5b4ufTNpxcufPXkE+lzYMgbAlBfFH08vD8O1SjWq1Bw2KW2pfTnTGJ9IETpiws9fC09XYIY43Y6kr4eG06CqjIttizGdDubOegrqnXZld+XX/6r9FWf4YXPEteuFtxSkuQmJ96+BuJJDl3LOJpCvGpfYa2lpaeS9C+fSNLXHsMn0tpub42KZQLQDJ6EGx41r5lITOfyNekzzuuLbzyGX0h7oQcuQ63k21WvE4EhAxCi+84gJmqt5J8vjOErCSqOVZchONPAMeRlFLhVqWub/Ra4JT0ZZ/hPrY3Qcqmnpdnj65jBgLFgrRb6LXCz/OkYwT8/hKpxt5e9EiuoHxiB8lnd7p+AYtbXI/ye/PMu1Pt7G07f1RYDkrZNAhnbjHeMXXeqZbw48ekfr667Vf/tO14wKZ71o74lEN9d6BeKRLFzn/3pyZ/++M02b0zdusU7VP0SK7gMKcp3++e8+NCpuvfhrb1l3k/st27u9L0QT9vO+lnfDuBOt9lwnKjt7C5vhELLe/2+6UbVa44HlqGg0qgzYEgUPXNrw2uBhx6u7+h9P0uqjaB6GqyOLn9D8rbTHDBsFjRvlsoKQY2HgLGlU5FoVvvh+u3d5d2HbYeZjtNjb5aCmNP0YaRscRSM2dVCt/DY1olpZ4hnoAHMvD3IRWuMIQ8epgv9IOOZaCBrCw9o9JyJp6s6I04289j7BhETPj619iZAWnNsw8Zqt1ezjj7c8nOiwSUoIDlqixN7UoQByMjGdLXow/u/Tw1ctI6p6bhhElby6arJKZHvjm3zHQdh20ZA+qVTQYUP9OPbfGOwoziAFxB6QAJOKq9lqLBsUOtfF1igYIivVVO9Fahu6XHgse3vKWbo7UIHF0b7tc5UK+UD7GZc4OTr7fAdPjDEJ1CLzsn0iNbNBrWFMYDRKLxGTe1VrR5kV+rCaB9f/vZgtm2tG+D61wXFqROiBRH1aoExpzjtstcAQT4xNSXE5gc0SMq/m3unxJQascdQafP1RNYKOEOE5W3teMCAAl9prXIL1dtGoGsLfkn20ZSjNAqzt/NJhygKZ+jXyzBOByQUq17nm18LQvgfplldQL2MjrUMNdgyFLDsGSLTmXuFialZmU33FJEJhB9NXrgcPBitXvJtHnT5dZhOtnRp0/00KRlyVuas0QDXhz3gR27MZ9m1fHFzs1jMU4plfh8WbjHCCvnAExSMuruiZyYov+6bDq+8wjldIfVAh/se5DbXUsLVcdzi+NHKAOwIvwEI0TxfleXqKEy0fnF+x7rk41X90wEhHHWHF2bmeDFvVGIBT2gE98jCB26wmLyThgPJWPX7EfU3QnXzUiKaU7dmgi4/DhlvOoSf664Hb7frdMA4xc9X6l1ffsTsPwKYZjSimFaQB0yvB86XGBTzs0tQ4If07dXNQC06/++A6KNMMujNpteCIir79rrHfwiAIQ52L22OOeaYY4455phjjjnmmGOOOeaY4x3xP9yqATF/0svmAAAAAElFTkSuQmCC">
+                        <div><span id="playAgainDisplay"></span></div>
+                    
+                    </div>
+                    <div class="col-md-6 gameplay-column">
+                        <h2>Press A-Z to Make a Guess!</h2>
+                        <h4>Wins</h4>
+                        <h5 id="totalWins"></h5>
+                        <h4>Current Word</h4>
+                        <h3 id="currentWord"></h3>
+                        <h4>Guesses Remaining</h4>
+                        <h6 id="remainingGuesses"></h6>
+                        <h4>Letters Guessed</h4>
+                        <h3 id="guessedLetters"></h3>
+                    </div>   
+        
+        </div>
+        </div>
+    </div>
+    <script>
+        resetGame();
+        updateDisplay();
+    </script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
